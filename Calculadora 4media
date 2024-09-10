@@ -1,0 +1,30 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner bobesponja = new Scanner(System.in);
+		System.out.println("----------------------------");
+		System.out.println("   Calculadora de Médias");
+		System.out.println("----------------------------");
+		System.out.println("");
+		System.out.print("Qual foi a sua nota no primeiro bimestre: ");
+		int n1 = bobesponja.nextInt();
+		System.out.print("Qual foi a sua nota no primeiro bimestre: ");
+		int n2 = bobesponja.nextInt();
+		System.out.print("Qual foi a sua nota no primeiro bimestre: ");
+		int n3 = bobesponja.nextInt();
+		System.out.print("Qual foi a sua nota no primeiro bimestre: ");
+		int n4 = bobesponja.nextInt();
+		float media =(n1+n2+n3+n4)/4f;
+		System.out.println("");
+		System.out.println("----------------------------");
+		System.out.println("Resultado");
+		System.out.println("");
+		System.out.println(media);
+		System.out.println("----------------------------");
+	}
+}
